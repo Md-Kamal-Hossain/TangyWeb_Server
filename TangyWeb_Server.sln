@@ -1,0 +1,61 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TangyWeb_Server", "TangyWeb_Server\TangyWeb_Server.csproj", "{EB65B938-E2A7-438C-9512-41348903FB9C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TangyWeb_Client", "TangyWeb_Client\TangyWeb_Client.csproj", "{34774BD9-FAF5-4CE1-AE94-310CB3772580}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tangy_Models", "Tangy_Models\Tangy_Models.csproj", "{34CD95DC-4DA1-42CE-8356-7A8C6E597547}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tangy_Business", "Tangy_Business\Tangy_Business.csproj", "{284568A3-DF90-4F94-9992-D8E92B77C90C}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tangy_Common", "Tangy_Common\Tangy_Common.csproj", "{3A19574C-5F73-4509-AA5B-9677370D1504}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tangy_DataAccess", "Tangy_DataAccess\Tangy_DataAccess.csproj", "{3AEE732E-FC86-46A3-9D5A-5FBAB95B11FF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TangyWeb_API", "TangyWeb_API\TangyWeb_API.csproj", "{2E987457-FA49-4730-8538-0D2B0909CA33}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EB65B938-E2A7-438C-9512-41348903FB9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB65B938-E2A7-438C-9512-41348903FB9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB65B938-E2A7-438C-9512-41348903FB9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB65B938-E2A7-438C-9512-41348903FB9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34774BD9-FAF5-4CE1-AE94-310CB3772580}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34774BD9-FAF5-4CE1-AE94-310CB3772580}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34774BD9-FAF5-4CE1-AE94-310CB3772580}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34774BD9-FAF5-4CE1-AE94-310CB3772580}.Release|Any CPU.Build.0 = Release|Any CPU
+		{34CD95DC-4DA1-42CE-8356-7A8C6E597547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{34CD95DC-4DA1-42CE-8356-7A8C6E597547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{34CD95DC-4DA1-42CE-8356-7A8C6E597547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{34CD95DC-4DA1-42CE-8356-7A8C6E597547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{284568A3-DF90-4F94-9992-D8E92B77C90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{284568A3-DF90-4F94-9992-D8E92B77C90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{284568A3-DF90-4F94-9992-D8E92B77C90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{284568A3-DF90-4F94-9992-D8E92B77C90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A19574C-5F73-4509-AA5B-9677370D1504}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A19574C-5F73-4509-AA5B-9677370D1504}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A19574C-5F73-4509-AA5B-9677370D1504}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A19574C-5F73-4509-AA5B-9677370D1504}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEE732E-FC86-46A3-9D5A-5FBAB95B11FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEE732E-FC86-46A3-9D5A-5FBAB95B11FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEE732E-FC86-46A3-9D5A-5FBAB95B11FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEE732E-FC86-46A3-9D5A-5FBAB95B11FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E987457-FA49-4730-8538-0D2B0909CA33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E987457-FA49-4730-8538-0D2B0909CA33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E987457-FA49-4730-8538-0D2B0909CA33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E987457-FA49-4730-8538-0D2B0909CA33}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1B8AF246-D79F-4763-9295-76ADA436C186}
+	EndGlobalSection
+EndGlobal
