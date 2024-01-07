@@ -1,7 +1,7 @@
 ﻿
 @inject ISyncLocalStorageService _localStorage
-@*@inject ICartService _cartService
-@implements IDisposable*@
+@inject ICartService _cartService
+@implements IDisposable
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="/">Tangy</a>
@@ -47,14 +47,14 @@
   </div>
 </nav>
 @code{
-    //protected void OnInitialized()
-    //{
-    //    _cartService.OnChange += StateHasChanged;
-    //}
-    //public void Dispose()
-    //{
-    //    _cartService.OnChange -= StateHasChanged;
-    //}
+   protected override void OnInitialized()
+    {
+        _cartService.OnChange += StateHasChanged;
+    }
+    public void Dispose()
+    {
+        _cartService.OnChange -= StateHasChanged;
+    }
     private int GetCartCount()
     {
         var cart = _localStorage.GetItem<List<ShoppingCart>>(SD.ShoppingCart);
